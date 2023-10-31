@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+	int n, i;
+	printf("请输入n的值：");
+	scanf("%d", &n);
+	int result = 1;
+	for (int i = 0; i < n; i++) {
+		result *= 2;
+	}
+	printf("*2的次方为 : %d\n*", result);
+	return 0;
+}
