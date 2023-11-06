@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main() {
+	int i;
+	for (i = 1; i < 101; i++) {
+		if (i % 2 == 1) {
+			printf("%d", i);
+		}
+	}
+	return 0;
+}
+
+
+
+
+
+一百以内奇数
+#include <stdio.h>
+
+int main() {
+	int i;
+	for (i = 1; i < 101; i++) {
+		if (i % 2 == 1) {
+			printf("%d", i);
+		}
+	}
+	return 0;
+}
