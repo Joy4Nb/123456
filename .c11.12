@@ -1,0 +1,26 @@
+： 输入一个整数，如果是奇数，输出odd；如果是偶数，输出even。
+#include <stdio.h>
+int main() {
+    int a;
+    scanf("%d",&a);
+    if(a%2==0)
+        printf("even");
+    else
+        printf("odd");
+
+    return 0;
+}
+
+
+输入一个年份，判断它是平年还是闰年。如果是平年，输出common year；如果是闰年，输出leap year。
+#include <stdio.h>
+int main () {
+    int year;
+    scanf("%d",year);
+    if(year%400==0){
+        printf("leap year");}
+    else
+        printf("common year");
+
+    return 0;
+}
