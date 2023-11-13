@@ -1,0 +1,28 @@
+请输入一个小写字母，判断它是元音还是辅音。如果是元音，输出vowel sound；如果是辅音，输出consonant sound。
+
+#include <stdio.h>
+int main() {
+    // 请在此处编写代码
+    char ch;
+    ch=getchar();
+    if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'){
+        printf("vowel sound\n");}
+    else
+        printf("consonant sound\n");
+    return 0;
+}
+ 输入一个整数，判断它是正数、负数或零。如果是正数，输出positive；如果是负数，输出negative；如果是零，输出zero。
+
+#include <stdio.h>
+int main () {
+    int a;
+    scanf("%d",&a);
+    if(a>0)
+        printf("positive");
+    else if(a==0)
+        printf("zero");
+    else
+        printf("negative");
+
+    return 0;
+}
