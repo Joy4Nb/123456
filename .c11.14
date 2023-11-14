@@ -1,0 +1,24 @@
+#include <stdio.h>
+int main() {
+ int num;
+ scanf("%d", &num);
+ if (num==100) {
+ printf("S");
+ }
+ if (90 <= num && num <= 99) {
+ printf("A");
+ }
+ if (80 <= num && num <= 89) {
+ printf("B");
+ }
+ if (70 <= num && num <= 79) {
+ printf("C");
+ }
+ if (60 <= num && num <= 69) {
+ printf("D");
+ }
+ if (0 <= num && num <= 59) {
+ printf("E");
+ }
+ return 0;
+}
