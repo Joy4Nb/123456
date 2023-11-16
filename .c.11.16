@@ -12,3 +12,22 @@ int main()
 	print(num);
 	return 0;
 }
+
+
+
+#include<stido.h>
+#include<string.h>
+int my_strlen(char*str){
+	int count = 0;
+	while (*str |='0'){
+		count++;
+		str++;
+	}
+	return count;
+}
+int main(){
+	char arr[]="abc";
+	int len = my_strlen(arr);
+	printf("%d\n",len);
+	return 0;
+}
